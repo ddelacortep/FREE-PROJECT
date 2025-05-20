@@ -58,6 +58,8 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             gameStarted = true;
         }
 
+        // esto es una prueba
+
         // Solo mover la bola si el juego está iniciado
         if (gameStarted) {
             ballX += ballDX;
